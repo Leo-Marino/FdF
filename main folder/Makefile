@@ -23,18 +23,15 @@ RED = \033[31m
 GREEN = \033[32m
 YELLOW = \033[33m
 
-all: $(LIBFT) $(MINILIBX) $(NAME)
+all: $(LIBFT) $(MLX_DIR) $(MINILIBX) $(NAME)
 
 
 $(OBJ_DIR):
 	@mkdir -p $(OBJ_DIR)
 
 $(MLX_DIR):
-#	scarica archivio(.tgz)
-	@curl https://cdn.intra.42.fr/document/document/26198/$(MLX_DIR).tgz --output $(MLX_DIR).tgz
 #	tar = estrarre archivio
 	@tar -xf $(MLX_DIR).tgz
-	@rm $(MLX_DIR).tgz
 
 $(LIBFT):
 	@$(MAKE) -C $(LIBFT_DIR) --quiet
@@ -52,7 +49,7 @@ clean:
 
 fclean: clean
 	@echo "$(RED)Full Cleaning...$(NO_COLOR)"
-	@	rm -rf $(OBJ_DIR) $(NAME)
+	@	rm -rf $(OBJ_DIR) $(NAME) $(MLX_DIR)
 	@	$(MAKE) -C $(LIBFT_DIR) fclean --quiet
 
 re: fclean all
