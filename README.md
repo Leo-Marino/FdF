@@ -2,7 +2,7 @@
 This program generates a wireframe model representation of a 3D landscape from a text file by appliyng the Bresenham algorithm to calculate wich pixels must be colored in order to produce the corresponding image
 
 ## Instructions
-### Makefile
+### Makefile :wrench:
 Extracts the graphical library from the compressed file, compiles the program and generate executable file:
 
 	make
@@ -19,12 +19,12 @@ Remove compilation products and compile again:
 
 	make re
 
-### Launch
+### Launch 🚀
 Run from terminal the executable file (fdf) along with a valid map file:
 
 	./fdf maps/42-col.fdf
 
-### Commands
+### Commands 🕹️
 Traslate the image:
 
 	Arrow keys
@@ -53,7 +53,7 @@ Close session:
 
 	'Esc' or 'Delete'
 
-### Map File
+### Map File 🗺️
 A valid map file must follow this format:\
 
 	The file name needs to have the ".fdf" extension at the end of it's name
