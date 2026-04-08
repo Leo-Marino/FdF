@@ -1,6 +1,5 @@
 # FDF
-This program generates a wireframe model representation of a 3D landscape from a text file.\
-It is done by appliyng the Bresenham algorithm to calculate wich pixels must be colored in order to produce the corresponding image
+This program generates a wireframe model representation of a 3D landscape from a text file by appliyng the Bresenham algorithm to calculate wich pixels must be colored in order to produce the corresponding image
 
 ## Instructions
 ### Makefile
