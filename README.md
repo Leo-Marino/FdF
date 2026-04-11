@@ -58,7 +58,7 @@ Close session:
 ### Map File 🗺️
 A valid map file must follow this format:
 
-The file name needs to have the ".fdf" extension at the end of it's name
+The file name needs to have the ".fdf" extension at the end of its name:
 
 	maps/42.fdf
 	maps/elem-col.fdf
