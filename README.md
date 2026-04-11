@@ -17,7 +17,7 @@ Remove objects, executable and the extracted minilibx folder:
 
 	make fclean
 
-Remove compilation products and compile again:
+Remove all compilation products and compile again:
 
 	make re
 
@@ -56,7 +56,7 @@ Close session:
 	'Esc' or 'Delete'
 
 ### Map File 🗺️
-A valid map file must follow this format:\
+A valid map file must follow this format:
 
 	The file name needs to have the ".fdf" extension at the end of it's name
 
