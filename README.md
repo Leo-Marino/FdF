@@ -58,12 +58,16 @@ Close session:
 ### Map File 🗺️
 A valid map file must follow this format:
 
-	The file name needs to have the ".fdf" extension at the end of it's name
+The file name needs to have the ".fdf" extension at the end of it's name
 
-Each number will represent a point on the base grid;\
+	maps/42.fdf
+	maps/elem-col.fdf
+	maps/t2.fdf
+
+Each number will represent a point on the base grid.\
 Decimal numbers indicate the height of the point:
 
-	0 0 0 0 0
+	0 0 10 10 0
 
 Heights can be followed by an hexadecimal number to define the color of the corresponding line:
 
